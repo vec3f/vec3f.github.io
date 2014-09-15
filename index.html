@@ -11,8 +11,8 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
     <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-comment-count"> &#8226; <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a></span>
 
     {{ post.content }}
   </div>

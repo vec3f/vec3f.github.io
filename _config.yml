@@ -6,20 +6,18 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Shady Fragments
+tagline:          'A Graphics Programmer''s Blog'
+description:      'Dumping ground for the thoughts of a graphics programmer, <a href="http://twitter.com/vec3f" target="_blank">@vec3f</a>.'
+url:              http://vec3f.github.io
 baseurl:          /
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+author:
+  email:          # your email address
+  github:         vec3f
+  linkedin:       namakshenas
+  twitter:        vec3f
+  stackoverflow:  # your stackoverflow profile, e.g. "users/50476/bart-kiers"

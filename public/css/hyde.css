@@ -80,7 +80,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2.75rem;
 }
 
 /* Sidebar nav */
@@ -96,6 +96,11 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+/* Sidebar social icons */
+.sidebar-social {
+  display: inline-block;
 }
 
 /* Sticky sidebar
@@ -175,6 +180,11 @@ a.sidebar-nav-item:focus {
  */
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
+
+/* Gray */
+.theme-base-02 .sidebar {
+  background-color: #303030;
+}
 
 /* Red */
 .theme-base-08 .sidebar {

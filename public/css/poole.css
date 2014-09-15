@@ -163,14 +163,12 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
+  padding: .5rem;
+  font-size: .7rem;
   line-height: 1.4;
   white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
   background-color: #f9f9f9;
+  overflow: auto;
 }
 pre code {
   padding: 0;
@@ -346,10 +344,15 @@ tbody tr:nth-child(odd) th {
 
 /* Meta data line below post title */
 .post-date {
-  display: block;
+  display: inline-block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+}
+.post-comment-count {
+  display: inline-block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Related posts */
