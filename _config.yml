@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Shady Fragments
 tagline:          'A Graphics Programmer''s Blog'
-description:      'Dumping ground for the thoughts of a graphics programmer, <a href="http://twitter.com/vec3f" target="_blank">@vec3f</a>.'
+description:      'Dumping ground for thoughts of a graphics programmer, <a href="http://twitter.com/vec3f" target="_blank">@vec3f</a>.'
 url:              http://vec3f.github.io
 baseurl:          /
 

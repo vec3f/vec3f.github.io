@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deferred Shading - Part 1
+title: "Deferred Shading in OpenGL ES 3, Part I: Setting up"
 ---
 
 When OpenGL ES 3.0 became available on iOS devices equipped with the Apple A7 GPU, I decided to revisit the deferred renderer I had implemented a while back, mainly due to the addition of MRT, or Multiple Render Targets. What MRT allows you to do is output to multiple color attachments on a single frame buffer from the same fragment shader. Now, while implementing deferred shading without MRT is of course possible, it requires multiple render passes of the scene to fill up all the required buffers, which can greatly sacrifice performance.
