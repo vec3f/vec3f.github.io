@@ -207,6 +207,9 @@ pre code {
   background-color: transparent;
   border-radius: 0;
 }
+.gist .line-numbers {
+  line-height: 1.6;
+}
 
 /* Quotes */
 blockquote {
