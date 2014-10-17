@@ -208,7 +208,7 @@ pre code {
   border-radius: 0;
 }
 .gist .line-numbers {
-  line-height: 1.6;
+  line-height: .95rem;
 }
 
 /* Quotes */
