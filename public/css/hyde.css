@@ -98,9 +98,11 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
-/* Sidebar social icons */
-.sidebar-social {
+/* Sidebar social icons and avatar */
+.sidebar-social,
+.sidebar-avatar {
   display: inline-block;
+  margin-bottom: 0;
 }
 
 /* Sticky sidebar
